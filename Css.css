@@ -1,0 +1,889 @@
+body{
+    position: relative;
+    margin:auto;
+    padding:0;
+    width: 320px;
+    background-color: black;
+}
+img{
+    vertical-align: top;
+}
+header{
+    background-color: black;
+    height: 83px;
+}
+.head{
+    margin:auto;
+    display: flex;
+}
+.main_icon{
+    margin-left:36px;
+    width: 154px;
+    height: 52px;
+    margin-top:18px;
+} 
+.login{
+    margin:0;
+    padding:0;
+    margin-left:28px;
+}
+.login1{
+    margin-left:10px;
+}
+.icon_fb{
+    width: 20px;
+    height: 20px;
+    margin-top:22px;
+}
+.icon_ig{
+    width: 20px;
+    height: 20px;
+    margin-top: 23px;
+    margin-left:5px;
+}
+.icon_login{
+    width: 73px;
+    height: 35px;
+    margin-top: 5px;
+}
+.head_list_bg{ 
+    background-color: #862525;
+    width:320px;
+    height:27px;
+}
+.head_list{
+    display:none;
+}
+.burger{
+    margin-top:7px;
+    margin-left:281px;
+}
+.main_pict{
+    display:none;
+}
+.page2_pict{
+    display:none;
+}
+.page2_pict2{
+    display: inherit;
+    width: 320px;
+    height: 253px;
+    margin:0;
+    padding:0;
+}
+.page2_bg{
+    margin-top:31px;
+    margin-left:69px;
+    background:rgba(255,255,255,0.8);
+    width: 182px;
+    height: 172px;
+    position:absolute;
+}
+.page2_word{
+    width: 130px;
+}
+.page2_word1{
+    font-size: 19px;
+    letter-spacing: 8px;
+    font-family:  "Segoe UI","微軟正黑體",sans-serif;
+    font-weight: bold;
+    color:#862525;
+    line-height: 0;
+    margin-top:23px;
+    margin-left:21px;
+}
+.page2_word2{
+    margin-top: 5px;
+    font-size:10px;
+    margin-left:21px;
+    font-family:  "Segoe UI","微軟正黑體",sans-serif;
+}
+.page2_word3{
+    font-size:10px;
+    margin-top:10px;
+    margin-left:21px;
+    font-family:  "Segoe UI","微軟正黑體",sans-serif;
+    width: 130px;
+}
+.page3_pict{
+    display: none;
+}
+.page3_pict2{
+    display: inherit;
+    width: 320px;
+    height: 235px;
+}
+.page3_bg{
+    margin-top:31px;
+    margin-left:69px;
+    background:rgba(255,255,255,0.8);
+    width: 182px;
+    height: 174px;
+    position:absolute;
+}
+.page3_word1{
+    font-size: 19px;
+    letter-spacing: 8px;
+    font-family:  "Segoe UI","微軟正黑體",sans-serif;
+    font-weight: bold;
+    color:#862525;
+    line-height: 0;
+    margin-top:23px;
+    margin-left:21px;
+}
+.page3_word2{
+    margin-top: 5px;
+    font-size:10px;
+    margin-left:21px;
+    font-family:  "Segoe UI","微軟正黑體",sans-serif;
+}
+.page3_word3{
+    font-size:10px;
+    margin-top:10px;
+    margin-left:21px;
+    font-family:  "Segoe UI","微軟正黑體",sans-serif;
+    width: 130px;
+}
+.page4_pict{
+    display: none;
+}
+.page4_pict2{
+    display: inherit;
+    width: 320px;
+    height: 235px;
+}
+.page4_bg{
+    margin-top:31px;
+    margin-left:69px;
+    background:rgba(255,255,255,0.8);
+    width: 182px;
+    height: 172px;
+    position:absolute;
+}
+.page4_word1{
+    font-size: 19px;
+    letter-spacing: 8px;
+    font-family:  "Segoe UI","微軟正黑體",sans-serif;
+    font-weight: bold;
+    color:#862525;
+    line-height: 0;
+    margin-top:23px;
+    margin-left:21px;
+}
+.page4_word2{
+    margin-top: 5px;
+    font-size:10px;
+    margin-left:21px;
+    font-family:  "Segoe UI","微軟正黑體",sans-serif;
+}
+.page4_word3{
+    font-size:10px;
+    margin-top:10px;
+    margin-left:21px;
+    font-family:  "Segoe UI","微軟正黑體",sans-serif;
+    width: 130px;
+}
+.page5_bg{
+    display: none;
+}
+.page5_bg_2{
+    display: inherit;
+    margin-top:37px;
+    margin-left:37px;
+    padding-bottom:51px;
+}
+.page5_pict{
+    width: 246px;
+    height: 60px;
+}
+.page5_pict2{
+    width: 246px;
+    height: 60px;
+    margin-top:10px;
+}
+.page6{
+    position:absolute;
+    margin:0;
+    padding:0;
+    margin-left:37px;
+}
+.order{
+    padding:0;
+    margin:0;
+    width: 246px;
+    height: 55px;
+    margin-top:10px;
+}
+.page6_pict{
+    display: none;
+}
+.page_pict2{
+    display: inherit;
+    width: 320px;
+    height: 373px;
+}
+.page6{
+    position:absolute;
+    margin:0;
+    padding:0;
+    margin-left:37px;
+}
+.order{
+    padding:0;
+    margin:0;
+    width: 246px;
+    height: 55px;
+    margin-top:10px;
+}
+.page6_text{
+    padding:0;
+    margin:0;
+    margin-left:67px;
+    margin-top:106px;
+    font-size:12px;
+    font-family:  "Segoe UI","微軟正黑體",sans-serif;
+    color: #F3F3F3;
+}
+.footer{
+    margin:0;
+    padding:0;
+    background-color: #862525;
+}
+
+.contect_text{
+    margin-block-start: 0;
+    padding-top:29px;
+    font-family:  'Sitka Text';
+    margin-left: 86px;
+    font-weight: bold;
+    color: #F3F3F3;
+    font-size:11px;
+    width: 148px;
+    height: 31px;
+    text-align: center;
+}
+.end1{
+    color: #F3F3F3;
+    font-size:12px;
+    font-family:  "Segoe UI","微軟正黑體",sans-serif;
+    text-decoration: none;
+}
+.end2{
+    padding-top:10px;
+    padding-bottom:18px;
+    color: #F3F3F3;
+    font-size:12px;
+    font-family:  "Segoe UI","微軟正黑體",sans-serif;
+    text-decoration: none;
+}
+.contect{
+    margin-left:131.5px;
+    line-height: 0;
+    margin-top:20px;
+  }
+@media (min-width:320px){
+    .burger{
+        display: none;
+    }
+    body{
+        position: relative;
+        margin:auto;
+        padding:0;
+        width: 768px;
+        background-color: black;
+    }
+    img{
+        vertical-align: top;
+    }
+    header{
+        background-color: black;
+        height: 94px;
+    }
+    .head{
+        margin:auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .login{
+        display: flex;
+        margin-right:65px;
+    }
+    .main_icon{
+        margin-left:80px;
+        width: 191px;
+        height: 65px;
+        margin-top:18px;
+    }   
+    .icon_fb{
+        width: 27px;
+        height: 27px;
+        margin-right:10px;
+        margin-top:51px;
+    }
+    .icon_ig{
+        width: 27px;
+        height: 27px;
+        margin-right:10px;
+        margin-top: 51px;
+    }
+    .icon_login{
+        width: 81px;
+        height: 45px;
+        margin-top: 47px;
+    }
+    .head_list_bg{ 
+        background-color: #862525;
+        padding-top:22px;
+        padding-bottom: 21px;
+        width:1280px;
+    }
+    .head_list{
+        margin:auto;
+        display: inherit;
+    }
+    .head_list_word1{
+        margin-left:80px;
+    }
+    .head_list_word{
+        font-family: "Segoe UI","微軟正黑體",sans-serif;
+        color: #F3F3F3;
+        margin-right: 44px;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    .main_pict{
+        display: inherit;
+        width: 768px;
+        height: 383px;
+    }
+    .main_pict1{
+        display:none;
+    }
+    .page2_pict{
+        display: inherit;
+        width: 768px;
+        height: 255px;
+        margin:0;
+        padding:0;
+    }
+    .page2_pict2{
+        display: none;
+    }
+    .page2_bg{
+        margin-top:0px;
+        margin-left:392px;
+        background:rgba(255,255,255,0.8);
+        width: 296px;
+        height: 255px;
+        position:absolute;
+    }
+    .page2_word{
+        width: 208px;
+    }
+    .page2_word1{
+        font-size: 24px;
+        letter-spacing: 10px;
+        font-family:  "Segoe UI","微軟正黑體",sans-serif;
+        font-weight: bold;
+        color:#862525;
+        line-height: 0;
+        margin-top:36px;
+        margin-left:44px;
+    }
+    .page2_word2{
+        margin-top: 5px;
+        font-size:16px;
+        margin-left:44px;
+        font-family:  "Segoe UI","微軟正黑體",sans-serif;
+    }
+    .page2_word3{
+        font-size:16px;
+        margin-top:15px;
+        margin-left:44px;
+        font-family:  "Segoe UI","微軟正黑體",sans-serif;
+        width: 208px;
+    }
+    .page3_pict{
+        display: inherit;
+        width: 768px;
+        height: 256px;
+    }
+    .page3_pict2{
+        display: none;
+    }
+    .page3_bg{
+        margin-top:0px;
+        margin-left:80px;
+        background:rgba(255,255,255,0.8);
+        width: 296px;
+        height: 256px;
+        position:absolute;
+    }
+    .page3_word1{
+        font-size: 24px;
+        letter-spacing: 10px;
+        font-family:  "Segoe UI","微軟正黑體",sans-serif;
+        font-weight: bold;
+        color:#862525;
+        line-height: 0;
+        margin-top:36px;
+        margin-left:44px;
+    }
+    .page3_word2{
+        margin-top: 5px;
+        font-size:16px;
+        margin-left:44px;
+        font-family:  "Segoe UI","微軟正黑體",sans-serif;
+    }
+    .page3_word3{
+        font-size:16px;
+        margin-top:15px;
+        margin-left:44px;
+        font-family:  "Segoe UI","微軟正黑體",sans-serif;
+        width: 208px;
+    }
+    .page4_pict{
+        display: inherit;
+        width: 768px;
+        height: 255px;
+    }
+    .page4_pict2{
+        display: none;
+    }
+    .page4_bg{
+        margin-top:0px;
+        margin-left:392px;
+        background:rgba(255,255,255,0.8);
+        width: 296px;
+        height: 255px;
+        position:absolute;
+    }
+    .page4_word1{
+        font-size: 24px;
+        letter-spacing: 10px;
+        font-family:  "Segoe UI","微軟正黑體",sans-serif;
+        font-weight: bold;
+        color:#862525;
+        line-height: 0;
+        margin-top:36px;
+        margin-left:44px;
+    }
+    .page4_word2{
+        margin-top: 5px;
+        font-size:16px;
+        margin-left:44px;
+        font-family:  "Segoe UI","微軟正黑體",sans-serif;
+    }
+    .page4_word3{
+        font-size:16px;
+        margin-top:15px;
+        margin-left:44px;
+        font-family:  "Segoe UI","微軟正黑體",sans-serif;
+        width: 208px;
+    }
+    .page5_bg{
+        background-color: black;
+        padding-top:69px;
+        padding-left:80px;
+        padding-bottom: 66px;
+        display: inherit;
+    }
+    .page5_bg_2{
+        display:none;
+    }
+    .page5_item1{
+        margin:0; 
+        padding:0;
+        font-family:  "Segoe UI","微軟正黑體",sans-serif;
+        font-weight: bold;
+        font-size:19px;
+        color: #F3F3F3;
+        display: flex;
+    }
+    .page5_item2{
+        margin:0;
+        padding:0;
+        margin-top:6px;
+        font-family:  "Segoe UI","微軟正黑體",sans-serif;
+        font-weight: bold;
+        font-size:19px;
+        color: #F3F3F3;
+        display: flex;
+    }
+    .page5_text{
+        margin:0;
+        margin:0;
+        margin-top:50px;
+        margin-left:39px;
+    }
+    .page6_pict{
+        margin: 0;
+        padding:0;
+        width: 768x;
+        height: 431px;
+        display: inherit;
+    }
+    .page6_pict2{
+        display: none;
+    }
+    .page6{
+        position:absolute;
+        margin:0;
+        padding:0;
+        margin-left:226px;
+    }
+    .order{
+        padding:0;
+        margin:0;
+        width: 316px;
+        height: 70px;
+        margin-top:10px;
+    }
+    .page6_text{
+        padding:0;
+        margin:0;
+        margin-left:102px;
+        margin-top:161px;
+        font-size:12px;
+        font-family:  "Segoe UI","微軟正黑體",sans-serif;
+        color: #F3F3F3;
+    }
+    .footer{
+        margin:0;
+        padding:0;
+        background-color: #862525;
+        display: flex;
+    }
+    
+    .contect_text{
+        margin-block-start: 0;
+        padding-top:23px;
+        font-family:  'Sitka Text';
+        margin-left: 307px;
+        font-weight: bold;
+        color: #F3F3F3;
+        font-size:11px;
+        width: 148px;
+        height: 31px;
+    }
+    .end1{
+        padding-left:18px;
+        color: #F3F3F3;
+        font-size:12px;
+        font-family:  "Segoe UI","微軟正黑體",sans-serif;
+        
+    }
+    .end2{
+        padding-left:18px;
+        color: #F3F3F3;
+        font-size:12px;
+        font-family:  "Segoe UI","微軟正黑體",sans-serif;
+        margin-left:20px;
+        padding-top:0px;
+    }
+    .contect{
+        display: flex;
+        margin-left:93px;
+        line-height: 0;
+        margin-top:23px;
+      }
+    }
+@media (min-width:768px){
+    body{
+        position: relative;
+        margin:auto;
+        padding:0;
+        width: 1280px;
+    }
+    img{
+        vertical-align: top;
+    }
+    header{
+        background-color: black;
+        height: 94px;
+    }
+    .head{
+        margin:auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .login{
+        display: flex;
+        margin-right:100px;
+    }
+    .main_icon{
+        margin-left:138px;
+        width: 191px;
+        height: 65px;
+        margin-top:18px;
+    }   
+    .icon_fb{
+        width: 27px;
+        height: 27px;
+        margin-right:10px;
+        margin-top:51px;
+    }
+    .icon_ig{
+        width: 27px;
+        height: 27px;
+        margin-right:10px;
+        margin-top: 52px;
+    }
+    .icon_login{
+        width: 81px;
+        height: 45px;
+        margin-top: 47px;
+    }
+    .head_list_bg{ 
+        background-color: #862525;
+        padding-top:18px;
+        padding-bottom: 17px;
+    }
+    .head_list{
+        margin:auto;
+    }
+    .head_list_word1{
+        margin-left:242.5px;
+    }
+    .head_list_word{
+        font-family: "Segoe UI","微軟正黑體",sans-serif;
+        color: #F3F3F3;
+        margin-right: 50px;
+        font-size: 24px;
+    }
+    .main_pict{
+        width: 1280px;
+        height: 640px;
+    }
+    .page2_pict{
+        display: inherit;
+        width: 1280px;
+        height: 430px;
+        margin:0;
+        padding:0;
+    }
+    .page2_pict2{
+        display: none;
+    }
+    .page2_bg{
+        margin-top:0px;
+        margin-left:733px;
+        background:rgba(255,255,255,0.8);
+        width: 324px;
+        height: 430px;
+        position:absolute;
+    }
+    .page2_word{
+        width: 250px;
+    }
+    .page2_word1{
+        font-size: 32px;
+        letter-spacing: 15px;
+        font-family:  "Segoe UI","微軟正黑體",sans-serif;
+        font-weight: bold;
+        color:#862525;
+        line-height: 0;
+        margin-top:95px;
+        margin-left:45px;
+    }
+    .page2_word2{
+        margin-top: 10px;
+        font-size:18px;
+        margin-left:45px;
+        font-family:  "Segoe UI","微軟正黑體",sans-serif;
+    }
+    .page2_word3{
+        font-size:18px;
+        margin-top:10px;
+        margin-left:45px;
+        font-family:  "Segoe UI","微軟正黑體",sans-serif;
+        width: 250px;
+    }
+    .page3_pict{
+        display: inherit;
+        width: 1280px;
+        height: 426px;
+    }
+    .page3_pict2{
+        display: none;
+    }
+    .page3_bg{
+        margin-top:0px;
+        margin-left:233px;
+        background:rgba(255,255,255,0.8);
+        width: 324px;
+        height: 426px;
+        position:absolute;
+    }
+    .page3_word1{
+        font-size: 32px;
+        letter-spacing: 15px;
+        font-family:  "Segoe UI","微軟正黑體",sans-serif;
+        font-weight: bold;
+        color:#862525;
+        line-height: 0;
+        margin-top:95px;
+        margin-left:45px;
+    }
+    .page3_word2{
+        margin-top: 10px;
+        font-size:18px;
+        margin-left:45px;
+        font-family:  "Segoe UI","微軟正黑體",sans-serif;
+    }
+    .page3_word3{
+        font-size:18px;
+        margin-top:10px;
+        margin-left:45px;
+        font-family:  "Segoe UI","微軟正黑體",sans-serif;
+        width: 250px;
+    }
+    .page4_pict{
+        display: inherit;
+        width: 1280px;
+        height: 456px;
+    }
+    .page4_pict2{
+        display: none;
+    }
+    .page4_bg{
+        margin-top:0px;
+        margin-left:733px;
+        background:rgba(255,255,255,0.8);
+        width: 324px;
+        height: 456px;
+        position:absolute;
+    }
+    .page4_word1{
+        font-size: 32px;
+        letter-spacing: 15px;
+        font-family:  "Segoe UI","微軟正黑體",sans-serif;
+        font-weight: bold;
+        color:#862525;
+        line-height: 0;
+        margin-top:95px;
+        margin-left:45px;
+    }
+    .page4_word2{
+        margin-top: 10px;
+        font-size:18px;
+        margin-left:45px;
+        font-family:  "Segoe UI","微軟正黑體",sans-serif;
+    }
+    .page4_word3{
+        font-size:18px;
+        margin-top:10px;
+        margin-left:45px;
+        font-family:  "Segoe UI","微軟正黑體",sans-serif;
+        width: 250px;
+    }
+    .page5_bg{
+        background-color: black;
+        padding-top:118px;
+        padding-left:223px;
+        padding-bottom: 107px;
+        display: inherit;
+    }
+    .page5_bg_2{
+        display:none;
+    }
+    .page5_item1{
+        margin:0;
+        padding:0;
+        font-family:  "Segoe UI","微軟正黑體",sans-serif;
+        font-weight: bold;
+        font-size:32px;
+        color: #F3F3F3;
+        display: flex;
+    }
+    .page5_item2{
+        margin:0;
+        padding:0;
+        margin-top:10px;
+        font-family:  "Segoe UI","微軟正黑體",sans-serif;
+        font-weight: bold;
+        font-size:32px;
+        color: #F3F3F3;
+        display: flex;
+    }
+    .page5_text{
+        margin:0;
+        margin:0;
+        margin-top:84px;
+        margin-left:60px;
+    }
+    .page6_pict{
+        margin: 0;
+        padding:0;
+        width: 1280px;
+        height: 718px;
+        display:inherit;
+    }
+    .page6_pict2{
+        display: none;
+    }
+    .page6{
+        position:absolute;
+        margin:0;
+        padding:0;
+        margin-left:377px;
+    }
+    .order{
+        padding:0;
+        margin:0;
+        width: 526px;
+        height: 117px;
+        margin-top:24px;
+    }
+    .page6_text{
+        padding:0;
+        margin:0;
+        margin-left:166px;
+        margin-top:259px;
+        font-size:21px;
+        font-family:  "Segoe UI","微軟正黑體",sans-serif;
+        color: #F3F3F3;
+    }
+    .footer{
+        margin:0;
+        padding:0;
+        background-color: #862525;
+        display: flex;
+    }
+    
+    .contect_text{
+        margin-block-start: 0;
+        padding-top:23px;
+        font-family:  'Sitka Text';
+        margin-left: 559px;
+        font-weight: bold;
+        color: #F3F3F3;
+        font-size:11px;
+        width: 148px;
+        height: 31px;
+    }
+    .end1{
+        padding-left:18px;
+        color: #F3F3F3;
+        font-size:12px;
+        font-family:  "Segoe UI","微軟正黑體",sans-serif;
+        
+    }
+    .end2{
+        padding-left:18px;
+        color: #F3F3F3;
+        font-size:12px;
+        font-family:  "Segoe UI","微軟正黑體",sans-serif;
+        margin-left:20px;
+       padding-top:0px;
+    }
+    .contect{
+        display: flex;
+        margin-left:326px;
+        line-height: 0;
+        margin-top:23px;
+      }
+      .burger{
+        display: none;
+    }
+    }
